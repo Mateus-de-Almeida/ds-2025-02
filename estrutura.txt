@@ -1,0 +1,15 @@
+Ao considerar a estrutração como se fosse um banco de dados que representa os logs de transações bancárias:
+A tabela se chama "df"
+As colunas se chamam: "codigoBanco", "numeroAgencia", "numeroConta". "valor", "_codigoBanco", "_numeroAgencia", "_numeroConta"
+
+Onde:
+
+codigoBanco: codigo do banco de quem está envindo algum valor
+numeroAgencia: numero da agência de quem está enviando algum valor
+numeroConta: numero da conta de quem está enviando algum valor
+
+valor: valor enviado
+
+_codigoBanco: codigo do banco de quem está recebendo algum valor
+_numeroAgencia: numero da agência de quem está recebendo algum valor
+_numeroConta: numero da conta de que está recebendo algum valor
